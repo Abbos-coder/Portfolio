@@ -1,0 +1,39 @@
+@media (max-width: 900px){
+	.content__body {
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-top: 80px;
+	}
+	.content__text {
+		order: 2;
+	}
+	.content__image {
+		order: 1;
+		margin: 20px;
+	}
+	.content__scroll {
+		display: none;
+	}
+	.about__body {
+		justify-content: space-around;
+	}
+	.skills__body {
+		justify-content: space-around;
+	}
+}
+@media (max-width: 530px){
+	.content__svg {
+		max-width: 300px;
+	}
+	.contact__info {
+		justify-content: start;
+	}
+}
+@media (max-width: 450px){
+	.contact__form-row {
+		flex-wrap: wrap;
+	}
+	.contact__form-item  {
+		width: 100%;
+	}
+}

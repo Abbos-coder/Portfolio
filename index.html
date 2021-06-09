@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- icons link -->
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+	<!-- carousel link -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/media.css">
+	<!-- js links -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+	<script src="./js/script.js" defer></script>
+	<title>Portfolio</title>
+</head>
+
+<body id="dark">
+	<div class="wrapper">
+
+		<header class="header" id="home">
+			<div class="header__body container">
+				<div class="header__logo"><a href="#" class="header__link">Abbos</a></div>
+				<div class="header__nav">
+					<ul class="header__list">
+						<li><a href="#" class="header__link active">Home</a></li>
+						<li><a href="#about" class="header__link">About</a></li>
+						<li><a href="#skills" class="header__link">Skills</a></li>
+						<li><a href="#services" class="header__link">Services</a></li>
+						<li><a href="#portfolio" class="header__link">Portfolio</a></li>
+						<li><a href="#contacts" class="header__link">Contacts</a></li>
+					</ul>
+				</div>
+				<div class="header__icons">
+					<i class="uil uil-moon" id="theme"></i>
+				</div>
+			</div>
+		</header>
+
+		<!--? Main header -->
+		<section class="content">
+			<div class="content__body container">
+				<div class="content__icons">
+					<a href="#" class="content__icon">
+						<i class="uil uil-linkedin-alt"></i>
+					</a>
+					<a href="#" class="content__icon">
+						<i class="uil uil-github-alt"></i>
+					</a>
+					<a href="#" class="content__icon">
+						<i class="uil uil-instagram"></i>
+					</a>
+				</div>
+
+				<div class="content__text">
+					<div class="content__title">Hi!, I'am Abbos</div>
+					<div class="content__subtitle">Frontend developer</div>
+					<div class="content__more">High level experience in web development, producting quality work</div>
+					<a class="content__btn" href="#">Contact me <i class="uil uil-message"></i></a>
+					<div class="content__scroll">
+						<i class="uil uil-mouse-alt mouse-icon"></i>
+						<p>Scroll down </p>
+						<i class="uil uil-arrow-down down-icon"></i>
+					</div>
+				</div>
+
+				<div class="content__image">
+					<svg class="content__svg" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink">
+						<mask id="mask0" mask-type="alpha">
+							<path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+							 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+							 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+							 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+						</mask>
+						<g mask="url(#mask0)">
+							<path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+							 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+							 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+							 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+							<image xlink:href="img/img-2.PNG" x="18" y="18" class="content__img" />
+						</g>
+					</svg>
+				</div>
+			</div>
+		</section>
+
+		<!-- ? About me  -->
+		<section class="about container" id="about">
+			<div class="about__main-title">
+				<div class="about__title">About Me</div>
+				<p>My Introdaction</p>
+			</div>
+			<div class="about__body ">
+				<div class="about__image">
+					<img src="./img/IMG_0107.JPG" alt="my avatar" loading="lazy">
+				</div>
+				<div class="about__right">
+					<div class="about__text">
+						Web developer, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis hic
+						accusantium Vue.js/Nuxt.js laudantium fuga expedita dolor sit amet.
+					</div>
+					<div class="about__works">
+						<div class="about__item">
+							<p class="about__item-number">03+</p>
+							<p class="about__subtitle">Years <br> experience</p>
+						</div>
+						<div class="about__item">
+							<p class="about__item-number">20+</p>
+							<p class="about__subtitle">Complated <br> projects</p>
+						</div>
+						<div class="about__item">
+							<p class="about__item-number">5+</p>
+							<p class="about__subtitle">Company <br> works</p>
+						</div>
+					</div>
+					<div class="about__btn" id="skills">
+						<a href="#" class="about__cv">Download CV <i class="uil uil-import"></i></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ? skills -->
+		<section class="skills">
+			<div class="skills__main-title">
+				<div class="skills__title">Skills</div>
+				<p>My technical level</p>
+			</div>
+			<!-- first skill -->
+			<div class="skills__body container">
+				<div class="skills__dropdown">
+					<div class="skills__dropdown-top front active">
+						<i class="uil uil-brackets-curly dropdown-icon"></i>
+						<div class="skills__dropdown-text">
+							<p class="skills__dropdown-title">Frontend</p> <br>
+							<p class="skills__dropdown-subtitle">More than 3 years</p>
+						</div>
+						<i class="uil uil-angle-down"></i>
+					</div>
+
+					<div class="skills__dropdown-data front-info active">
+						<!-- copy -->
+						<div class="skills__dropdown-body">
+							<div class="skills__dropdown-info ">
+								<p>HTML</p>
+								<p>95%</p>
+							</div>
+							<div class="skills__dropdown-progress">
+								<div class="skills__dropdown-bar skill__html"></div>
+							</div>
+						</div>
+
+						<div class="skills__dropdown-body">
+							<div class="skills__dropdown-info">
+								<p>CSS</p>
+								<p>96%</p>
+							</div>
+							<div class="skills__dropdown-progress">
+								<div class="skills__dropdown-bar skill__css"></div>
+							</div>
+						</div>
+
+						<div class="skills__dropdown-body">
+							<div class="skills__dropdown-info">
+								<p>JavaScript</p>
+								<p>88%</p>
+							</div>
+							<div class="skills__dropdown-progress">
+								<div class="skills__dropdown-bar skill__javascript"></div>
+							</div>
+						</div>
+
+						<div class="skills__dropdown-body">
+							<div class="skills__dropdown-info ">
+								<p>jQuery</p>
+								<p>80%</p>
+							</div>
+							<div class="skills__dropdown-progress">
+								<div class="skills__dropdown-bar skill__jquery"></div>
+							</div>
+						</div>
+
+						<div class="skills__dropdown-body">
+							<div class="skills__dropdown-info">
+								<p>Bootstrap</p>
+								<p>90%</p>
+							</div>
+							<div class="skills__dropdown-progress">
+								<div class="skills__dropdown-bar skill__bootstrap"></div>
+							</div>
+						</div>
+						<!--/ copy -->
+					</div>
+
+				</div>
+
+				<!-- second skill -->
+				<div class="skills__dropdown">
+					<div class="skills__dropdown-top design">
+						<i class="uil uil-swatchbook dropdown-icon"></i>
+						<div class="skills__dropdown-text">
+							<p class="skills__dropdown-title">Design</p> <br>
+							<p class="skills__dropdown-subtitle">Only read makets</p>
+						</div>
+						<i class="uil uil-angle-down"></i>
+					</div>
+
+					<div class="skills__dropdown-data design-info">
+						<!-- copy -->
+						<div class="skills__dropdown-body">
+							<div class="skills__dropdown-info">
+								<p>Figma</p>
+								<p>95%</p>
+							</div>
+							<div class="skills__dropdown-progress">
+								<div class="skills__dropdown-bar skill__html"></div>
+							</div>
+						</div>
+
+						<div class="skills__dropdown-body">
+							<div class="skills__dropdown-info">
+								<p>Avocode</p>
+								<p>100%</p>
+							</div>
+							<div class="skills__dropdown-progress">
+								<div class="skills__dropdown-bar skill__avocode"></div>
+							</div>
+						</div>
+
+						<div class="skills__dropdown-body">
+							<div class="skills__dropdown-info">
+								<p>Photoshop</p>
+								<p>80%</p>
+							</div>
+							<div class="skills__dropdown-progress">
+								<div class="skills__dropdown-bar skill__photoshop"></div>
+							</div>
+						</div>
+						<div class="skills__dropdown-body">
+							<div class="skills__dropdown-info">
+								<p>Sketch</p>
+								<p>96%</p>
+							</div>
+							<div class="skills__dropdown-progress">
+								<div class="skills__dropdown-bar skill__css"></div>
+							</div>
+						</div>
+					</div>
+					<!--/ copy -->
+				</div>
+
+				<!-- 3 skill -->
+				<div class="skills__dropdown">
+					<div class="skills__dropdown-top frame">
+						<i class="uil uil-swatchbook dropdown-icon"></i>
+						<div class="skills__dropdown-text">
+							<p class="skills__dropdown-title">Framework</p> <br>
+							<p class="skills__dropdown-subtitle">More than 2 years</p>
+						</div>
+						<i class="uil uil-angle-down"></i>
+					</div>
+					<div class="skills__dropdown-data frame-info">
+						<!-- copy -->
+						<div class="skills__dropdown-body">
+							<div class="skills__dropdown-info">
+								<p>Vue js</p>
+								<p>80%</p>
+							</div>
+							<div class="skills__dropdown-progress">
+								<div class="skills__dropdown-bar skill__photoshop"></div>
+							</div>
+						</div>
+
+						<div class="skills__dropdown-body">
+							<div class="skills__dropdown-info">
+								<p>Nuxt js</p>
+								<p>88%</p>
+							</div>
+							<div class="skills__dropdown-progress">
+								<div class="skills__dropdown-bar skill__javascript"></div>
+							</div>
+						</div>
+
+						<div class="skills__dropdown-body">
+							<div class="skills__dropdown-info">
+								<p>React</p>
+								<p>65%</p>
+							</div>
+							<div class="skills__dropdown-progress">
+								<div class="skills__dropdown-bar skill__react"></div>
+							</div>
+						</div>
+					</div>
+					<!--/ copy -->
+				</div>
+			</div>
+		</section>
+
+		<!--? qualification -->
+		<section class="qualification">
+			<div class="qualification__main-title">
+				<div class="qualification__title">Qualification</div>
+				<div class="qualification__subtitle">My personal journey</div>
+			</div>
+
+			<div class="qualification__body container">
+				<div class="qualification__items">
+					<div class="qualification__item edu active"><i class="uil uil-graduation-cap qualification__icon"></i>
+						Education
+					</div>
+					<div class="qualification__item work"><i class="uil uil-briefcase-alt qualification__icon"></i> Work
+					</div>
+				</div>
+				<!-- ! Education -->
+				<div class="qualification__cards cards__left">
+					<div class="qualification__cards-left">
+						<!--? left card -->
+						<div class="qualification__card">
+							<div class="qualification__card-info">
+								<div class="qualification__card-title">Computer <br> Enginner</div>
+								<div class="qualification__card-subtitle">Tashkent - Collage</div>
+								<span class="qualification__card-date"><i class="uil uil-calendar-alt"></i> 2013 - 2016</span>
+							</div>
+							<div class="qualification__card-lines">
+								<span class="qualification__card-doted"></span>
+								<span class="qualification__card-line"></span>
+							</div>
+						</div>
+
+						<div class="qualification__card qualification__card-right">
+							<div class="qualification__card-lines">
+								<span class="qualification__card-doted"></span>
+								<span class="qualification__card-line line__right"></span>
+							</div>
+							<div class="qualification__card-info">
+								<div class="qualification__card-title">Web <br> Development</div>
+								<div class="qualification__card-subtitle">Tashkent - University</div>
+								<span class="qualification__card-date"><i class="uil uil-calendar-alt"></i> 2018 - 2019</span>
+							</div>
+						</div>
+
+						<div class="qualification__card">
+							<div class="qualification__card-info">
+								<div class="qualification__card-title">Software <br> Enginner</div>
+								<div class="qualification__card-subtitle">Tashkent - University</div>
+								<span class="qualification__card-date" id="services"><i class="uil uil-calendar-alt"></i> 2018 -
+									2022</span>
+							</div>
+							<div class="qualification__card-lines">
+								<span class="qualification__card-doted"></span>
+								<!-- <span class="qualification__card-line"></span> -->
+							</div>
+						</div>
+						<!--? /left card -->
+					</div>
+
+				</div>
+				<!-- !work -->
+				<div class="qualification__cards cards__right active">
+					<div class="qualification__cards-left">
+						<!--? left card -->
+						<div class="qualification__card">
+							<div class="qualification__card-info">
+								<div class="qualification__card-title">Frontend <br> Developer</div>
+								<div class="qualification__card-subtitle">OOO Software - Tashkent</div>
+								<span class="qualification__card-date"><i class="uil uil-calendar-alt"></i> 2019 - 2020</span>
+							</div>
+							<div class="qualification__card-lines">
+								<span class="qualification__card-doted"></span>
+								<span class="qualification__card-line"></span>
+							</div>
+						</div>
+
+						<div class="qualification__card qualification__card-right">
+							<div class="qualification__card-lines">
+								<span class="qualification__card-doted"></span>
+								<span class="qualification__card-line line__right"></span>
+							</div>
+							<div class="qualification__card-info">
+								<div class="qualification__card-title">Frontend <br> Developer</div>
+								<div class="qualification__card-subtitle">Instant company - Remote</div>
+								<span class="qualification__card-date"><i class="uil uil-calendar-alt"></i> 2020 - 2021</span>
+							</div>
+						</div>
+
+						<div class="qualification__card">
+							<div class="qualification__card-info">
+								<div class="qualification__card-title">Frontend <br> Teacher</div>
+								<div class="qualification__card-subtitle">Unitec school - Tashkent</div>
+								<span class="qualification__card-date" id="services"><i class="uil uil-calendar-alt"></i> 2021 -
+									2022</span>
+							</div>
+							<div class="qualification__card-lines">
+								<span class="qualification__card-doted"></span>
+								<!-- <span class="qualification__card-line"></span> -->
+							</div>
+						</div>
+						<!--? /left card -->
+					</div>
+
+				</div>
+			</div>
+
+		</section>
+
+		<!--? services -->
+		<section class="services">
+			<div class="skills__main-title">
+				<div class="skills__title">Services</div>
+				<p>What I offer</p>
+			</div>
+			<div class="services__body container">
+
+				<div class="services__card ui-dev">
+					<div class="services__card-icon"><i class="uil uil-web-grid"></i></div>
+					<div class="services__card-title">Ui/Ux <br> Design</div>
+					<div class="services__card-btn">
+						<p>view more</p> <i class="uil uil-arrow-right services-icon"></i>
+					</div>
+
+					<!-- modal window -->
+					<div class="services__modal ui-modal">
+						<div class="services__modal-body">
+							<div class="services__modal-text">
+								<div class="services__card-title">Ui/Ux <br> Design</div>
+								<div class="services__card-icon services__close"><i class="uil uil-times"></i></div>
+							</div>
+							<p>I developed the user interface.</p>
+							<p>Web page developed.</p>
+							<p>I create ux element interactions.</p>
+							<p>I position your company brand.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="services__card fornt-dev">
+					<div class="services__card-icon"><i class="uil uil-arrow"></i></div>
+					<div class="services__card-title">Frontend<br> Developer</div>
+					<div class="services__card-btn">
+						<p>view more</p> <i class="uil uil-arrow-right services-icon"></i>
+					</div>
+					<!-- modal window -->
+					<div class="services__modal fornt-modal">
+						<div class="services__modal-body">
+							<div class="services__modal-text">
+								<div class="services__card-title">Frontend <br> Developer</div>
+								<div class="services__card-icon services__close"><i class="uil uil-times"></i></div>
+							</div>
+							<p>I developed the user interface.</p>
+							<p>Web page developed.</p>
+							<p>I create ux element interactions.</p>
+							<p>I position your company brand.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="services__card web-site">
+					<div class="services__card-icon"><i class="uil uil-sitemap"></i></i></div>
+					<div class="services__card-title">Web site <br> Web aplication</div>
+					<div class="services__card-btn">
+						<p>view more</p> <i class="uil uil-arrow-right services-icon"></i>
+					</div>
+					<!-- modal window -->
+					<div class="services__modal web-modal">
+						<div class="services__modal-body">
+							<div class="services__modal-text">
+								<div class="services__card-title">Web site <br> Web aplication</div>
+								<div class="services__card-icon services__close"><i class="uil uil-times"></i></div>
+							</div>
+							<p>I developed the user interface.</p>
+							<p>Web page developed.</p>
+							<p>I create ux element interactions.</p>
+							<p>I position your company brand.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--? Portfolio -->
+		<section class="portfolio" id="portfolio">
+			<div class="skills__main-title">
+				<div class="skills__title">Portfolio</div>
+				<p>Most recent work</p>
+			</div>
+			<div class="portfolio__body container">
+
+				<div class="swiper-container portfolio-carousel">
+					<div class="swiper-wrapper container">
+						<div class="swiper-slide">
+							<div class="swiper__img">
+								<img loading="lazy" src="./img/portfolio-1.jpg" alt="portfolio img">
+							</div>
+							<div class="swiper__content">
+								<div class="swiper__content-title">Corparative website</div>
+								<div class="swiper__content-subtitle">
+									Website adaptanle to all devices, with ui components and animated interaction.
+								</div>
+								<div class="swiper__content-btn">
+									Demo <i class="uil uil-arrow-right"></i>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper__img">
+								<img loading="lazy" src="./img/fulfil.png" alt="portfolio img">
+							</div>
+							<div class="swiper__content">
+								<div class="swiper__content-title">Education website</div>
+								<div class="swiper__content-subtitle">
+									Website adaptanle to all devices, with ui components and animated interaction.
+								</div>
+								<div class="swiper__content-btn">
+									Demo <i class="uil uil-arrow-right"></i>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper__img">
+								<img loading="lazy" src="./img/3d-model.png" alt="portfolio img">
+							</div>
+							<div class="swiper__content">
+								<div class="swiper__content-title">Oline store 3D models</div>
+								<div class="swiper__content-subtitle">
+									Website adaptanle to all devices, with ui components and animated interaction.
+								</div>
+								<div class="swiper__content-btn">
+									Demo <i class="uil uil-arrow-right"></i>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper__img">
+								<img loading="lazy" src="./img/kenakata.png" alt="portfolio img">
+							</div>
+							<div class="swiper__content">
+								<div class="swiper__content-title">Oline store</div>
+								<div class="swiper__content-subtitle">
+									Website adaptanle to all devices, with ui components and animated interaction.
+								</div>
+								<div class="swiper__content-btn">
+									Demo <i class="uil uil-arrow-right"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-pagination"></div>
+				</div>
+
+			</div>
+		</section>
+		<section class="sale">
+			<div class="sale__body container">
+				<div class="sale__card">
+					<div class="sale__card-text">
+						<div class="sale__card-title">You have a new project</div>
+						<div class="sale__card-subtitle">
+							Contact me now and get a 30% discount on your new project
+						</div>
+						<div class="sale__card-btn">
+							Contact me <i class="uil uil-message"></i>
+						</div>
+					</div>
+					<div class="sale__card-img">
+						<!-- <img loading="lazy" src="./img/img-2.PNG" alt="my image"> -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Contact me -->
+		<section class="contact" id="contacts">
+			<div class="skills__main-title">
+				<div class="skills__title">Contact me</div>
+				<p>Get in touch</p>
+			</div>
+			<div class="contact__body container">
+				<div class="contact__info">
+					<div class="contact__info-item">
+						<div class="contact__info-icon">
+							<i class="uil uil-phone"></i>
+						</div>
+						<div class="contact__info-text">
+							<div class="contact__info-title">Call me</div>
+							<div class="contact__info-subtitle">99 403-68-28</div>
+						</div>
+					</div>
+					<div class="contact__info-item">
+						<div class="contact__info-icon">
+							<i class="uil uil-envelope-alt"></i>
+						</div>
+						<div class="contact__info-text">
+							<div class="contact__info-title">Email</div>
+							<div class="contact__info-subtitle">khamidullaev@gmail.com</div>
+						</div>
+					</div>
+					<div class="contact__info-item">
+						<div class="contact__info-icon">
+							<i class="uil uil-map-marker"></i>
+						</div>
+						<div class="contact__info-text">
+							<div class="contact__info-title">Location</div>
+							<div class="contact__info-subtitle">Tashkent - Yunusobod 14</div>
+						</div>
+					</div>
+				</div>
+				<form class="contact__form">
+					<div class="contact__form-row">
+						<div class="contact__form-item">
+							<span>Name</span>
+							<input type="text" required>
+						</div>
+						<div class="contact__form-item">
+							<span>Email</span>
+							<input type="email" required>
+						</div>
+					</div>
+					<div class="contact__form-item">
+						<span>Project</span>
+						<input type="text" required>
+					</div>
+					<div class="contact__form-item message">
+						<span>Message</span>
+						<textarea name="message"></textarea>
+					</div>
+					<div class="contact__form-btn">
+						<a href="#"><button type="submit">Send message<i class="uil uil-message"></i></button></a>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<!-- footer -->
+		<footer class="footer">
+			<div class="footer__body container">
+
+				<div class="footer__logo">
+					<a href="#" class="footer__logo-name">Abbos</a>
+					<div class="footer__logo-subname">Frontend developer</div>
+				</div>
+
+				<div class="footer__nav">
+					<ul class="footer__list">
+						<li><a href="#" class="footer__link">Services</a></li>
+						<li><a href="#" class="footer__link">Portfolio</a></li>
+						<li><a href="#" class="footer__link">Contact me</a></li>
+					</ul>
+				</div>
+
+				<div class="footer__icons">
+					<i class="uil uil-facebook-f"></i>
+					<i class="uil uil-instagram"></i>
+					<i class="uil uil-telegram-alt"></i>
+				</div>
+			</div>
+			<div class="footer-sub">
+				<i class="uil uil-copyright"></i>
+				Khamidullaev. All right reserved
+			</div>
+		</footer>
+
+	</div>
+</body>
+
+</html>
